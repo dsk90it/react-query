@@ -4,7 +4,7 @@ import PlanetCard from "./planet-card"
 
 // Fetch data
 const fetchPlanets = async (pageNo) => {
-  const res = await fetch(`http://swapi.dev/api/planets/?page=${pageNo}`)
+  const res = await fetch(`https://swapi.dev/api/planets/?page=${pageNo}`)
   return res.json()
 }
 

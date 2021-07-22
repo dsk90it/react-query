@@ -4,7 +4,7 @@ import PersonCard from "./person-card"
 
 // Fetch data
 const fetchPeople = async (pageNo) => {
-  const res = await fetch(`http://swapi.dev/api/people/?page=${pageNo}`)
+  const res = await fetch(`https://swapi.dev/api/people/?page=${pageNo}`)
   return res.json()
 }
 
